@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    /* padding: 8px 10px; */
+    background: transparent;
+    color: black;
+    padding: 8px 5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+    font-size: smaller;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1,1em;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.chat-button {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    min-height: calc(100vh - 3rem);
+    display: flex;
+    width: 100vw;
+}
+
+.box-one {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.box-one section {
+    margin-left: 5rem;
+}
+
+.box-one section h2 {
+    font-size: 7rem;
+}
+
+.box-one section p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.box-two {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;  
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons a {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 10px;
+    width: 9rem;
+    height: 2.3rem;
+    font-weight: bold;
+}
+
+#get-in-touch {
+    background-color: black;
+    color: white;
+}
+
+#browse-projects {
+    background-color: lightgrey;
+    color: black;
+}
+
+.box-two div {
+    width: 30rem;
+    padding: 2.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: transparent;  
+    overflow: hidden;
+}
+
+.box-two div img {
+    width: 100%;
+    border-radius: 50%;
+    background: transparent;  
+}
